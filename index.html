@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>Title of the document</title>
+  </head>
+  <body>
+    <script>
+var links = ["https://parktudor-org.zoom.us/j/83965035273?pwd=dUw0YnF3Nk1KdXBxR1FoNEFrZmlhZz09", "https://parktudor-org.zoom.us/j/87198646728?pwd=MVdXTmJ3Z3FUVEJhcTRzekZ5d3VlQT09", "https://parktudor-org.zoom.us/j/89130599194?pwd=RSsvaFpJUEZKdk9nVUtScW9iVXFiZz09", "https://parktudor-org.zoom.us/j/84082455316?pwd=dDZ4Uy9LdTQvTFRKUWlkRlZhb2NMQT09", "https://parktudor-org.zoom.us/j/88241556587?pwd=R0pLTXpCQlBPaURPM2RGcVMwQXEwZz09"];
+     
+var d = new Date(); 
+var day = d.getDay(); 
+
+day = 1;
+
+if(day >= 1 && day <= 5) 
+   window.location.href = links[day-1];
+
+    </script>
+  </body>
+</html>
